@@ -1,6 +1,7 @@
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
+import requests
 import MusicCollection
 import google.generativeai as genai
 import time
@@ -83,3 +84,4 @@ if __name__ == '__main__':
                          processCommand(command)
             except Exception as e:
                 print("Error; {0}".format(e))
+
